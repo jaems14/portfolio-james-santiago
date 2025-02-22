@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-pixel-white dark:bg-pixel-black text-pixel-black dark:text-pixel-white font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-pixel;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-pixel {
+    @apply inline-flex items-center px-4 py-2 font-pixel text-sm bg-pixel-primary text-pixel-white shadow-pixel hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all;
+  }
+
+  .btn-pixel-outline {
+    @apply inline-flex items-center px-4 py-2 font-pixel text-sm border-4 border-pixel-primary text-pixel-primary hover:bg-pixel-primary hover:text-pixel-white shadow-pixel hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all;
+  }
+
+  .input-pixel {
+    @apply w-full px-4 py-2 font-sans bg-pixel-black dark:bg-pixel-white text-pixel-white dark:text-pixel-black border-4 border-pixel-primary focus:outline-none focus:border-pixel-secondary;
+  }
+
+  .btn {
+    @apply inline-flex items-center px-4 py-2 font-pixel text-sm bg-pixel-primary text-pixel-white shadow-pixel hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center px-4 py-2 font-pixel text-sm border-4 border-pixel-primary text-pixel-primary hover:bg-pixel-primary hover:text-pixel-white shadow-pixel hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all;
+  }
+
+  .input {
+    @apply w-full px-4 py-2 font-sans bg-pixel-black dark:bg-pixel-white text-pixel-white dark:text-pixel-black border-4 border-pixel-primary focus:outline-none focus:border-pixel-secondary;
+  }
+
+  .label {
+    @apply block text-sm font-pixel text-pixel-black dark:text-pixel-white;
+  }
+}
+
+/* Custom animations */
+@keyframes pixelFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-pixel-float {
+  animation: pixelFloat 3s ease-in-out infinite;
+} 
