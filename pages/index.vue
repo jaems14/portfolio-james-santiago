@@ -94,7 +94,7 @@
 
           <div class="space-y-6 bg-pixel-black dark:bg-pixel-white p-8 shadow-pixel">
             <p class="font-sans text-pixel-white dark:text-pixel-black leading-relaxed">
-                A highly skilled and experienced Senior PHP Developer with over six years of professional experience in designing, developing, and maintaining robust web applications and systems. 
+                A highly skilled and experienced Senior PHP Developer with over five years of professional experience in designing, developing, and maintaining robust web applications and systems. 
                 Proficient in a wide range oftechnologies and frameworks, with a proven track record of delivering high-quality, efficient, and scalable solutions. 
                 Adept at collaborating with cross-functional teams, optimizing code and databases, andproviding technical support and training to clients. 
                 Strong problem-solving abilities, attention to detail, and a commitment to continuous learning and improvement.
@@ -265,7 +265,7 @@
 
 <script setup lang="ts">
 const stats = [
-  { label: 'Years Experience', value: '6+' },
+  { label: 'Years Experience', value: '5+' },
   { label: 'Technologies', value: '15+' }
 ]
 
