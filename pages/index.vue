@@ -320,12 +320,12 @@ const projects = [
     github: null
   },
   {
-    name: 'Memoria',
+    name: 'Yestory',
     category: 'personal',
     description: 'Digital space for your memories',
     image: '/images/project3.png',
     technologies: ['PHP', 'Laravel', 'Vue.js', 'MySQL'],
-    demo: null,
+    demo: "https://yestory.cloud",
     github: null
   }
 ]

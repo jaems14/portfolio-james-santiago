@@ -320,7 +320,7 @@ const projects = [
     github: null
   },
   {
-    name: 'Memoria - Digital Memory Platform',
+    name: 'Yestory - Digital Memory Platform',
     category: 'personal',
     description: 'Created an innovative digital platform for preserving and sharing personal memories. The platform combines social features with secure storage solutions for photos, videos, and stories.',
     image: '/images/project3.png',
@@ -334,7 +334,7 @@ const projects = [
       'Built responsive UI with Vue.js and Tailwind CSS',
       'Created RESTful API with Laravel'
     ],
-    demo: null,
+    demo: "https://yestory.cloud",
     github: null
   }
 ]
